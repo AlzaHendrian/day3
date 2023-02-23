@@ -1,0 +1,23 @@
+variabel adalah tempat penyimpanan bernama untuk menyimpan suatu type data
+type data adalah klasifikasi data yang mengenalkan kompilator atau penerjemah bagaimana programmer bermaksud untuk menggunakan data, ada dua jenis : 
+- type data primitif type data sederhana hanya terdiri dari 1 value
+Number
+BigInt
+String
+Boolean
+Null
+Undefined
+Symbol
+
+- Tipe data non-primitif dapat menyimpan lebih dari satu nilai pada satu waktu dan dapat diubah :
+object
+array
+function
+
+operator adalah simbol yang dapat digunakan untuk memberi tahu mesin JavaScript untuk melakukan tindakan, operasi, atau melakukan perhitungan, entah itu perhitungan matematika maupun logika
+
+if condition untuk melakukan perbandingan data satu dengan yg lain
+
+function adalah sebuah fungsi yg berisi kumpulan kode yg bisa dipanggil secara berulang
+
+type of : untuk mengetahui suatu type data si value

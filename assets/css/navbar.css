@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: whitesmoke;
+  width: 100%;
+}
+
+/* Navbar */
+nav {
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  background-color: white; 
+  display: flex; 
+  height: auto; 
+  align-items: center; 
+  padding: 10px;
+}
+
+nav ul {
+  display: flex; 
+  list-style: none; 
+  width: 100%; 
+  margin-left: 2rem;
+}
+
+nav img {
+  margin: 5px 20px 5px 4rem; 
+  size: 20rem; 
+  width: 150px;
+}
+
+a.home { 
+  font-weight: 750;
+  margin-right: 2.5rem;
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: black; 
+  font-size: 16px;
+}
+
+div.contactme{
+  width: 100%; 
+  text-align: right; 
+  margin-right: 6rem;
+}
+
+div.contactme a {
+  text-decoration: none; 
+  background-color: #03001C; 
+  color: white; 
+  padding: 8px 12px; 
+  border-radius: 8px; 
+  font-size: 16px; 
+  font-weight: 550; 
+  letter-spacing: 1px;
+}
+
+/* End navbar */
+@media screen and (max-width: 768px) {
+  nav img {
+    margin: 4px 16px;
+  }
+  nav ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  ul li {
+    margin-left: 16px;
+  }
+  div.contactme a {
+    padding: 6px 8px;
+    
+  }
+  div.contactme{
+    margin-right: 2rem;
+  }
+  a.home {
+    margin-right: 2px;
+  }
+}
